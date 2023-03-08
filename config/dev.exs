@@ -13,7 +13,7 @@ config :chat, ChatWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "zU0YEcPrt5NB9y+jtxEhmAenL/qKvl6W8FMusUwg5kYapivPPWr0Ee1xbqFDIcGn",
+  secret_key_base: "kbsDFTuBBFeNNROWIJXBne+aUh8CnN9Tb+JlDKgCCUJJyHKQUrDAzmTyxwWZnE3z",
   watchers: [
     # Start the esbuild watcher by calling Esbuild.install_and_run(:default, args)
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]}
