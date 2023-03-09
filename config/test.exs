@@ -4,7 +4,7 @@ import Config
 # you can enable the server option below.
 config :chat, ChatWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "m0MHzW4Z3DqVpUZ7HJGMKD7I3Srj4UXRtTxqTSgAuuTgKu/MVWn/DDb3dO+lNzwo",
+  secret_key_base: "YlVIsijcSb4wRVMwWrCx84CLpfD/K8tuSrLq0ckJZEd96RxPxgfhtQgwrtpFlTHw",
   server: false
 
 # In test we don't send emails.
